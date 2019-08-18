@@ -1,0 +1,581 @@
+@font-face {
+  font-family: 'lol-icon';
+  src:  url('../fonts/lol-icon.eot?lh4izv');
+  src:  url('../fonts/lol-icon.eot?lh4izv#iefix') format('embedded-opentype'),
+    url('../fonts/lol-icon.ttf?lh4izv') format('truetype'),
+    url('../fonts/lol-icon.woff?lh4izv') format('woff'),
+    url('../fonts/lol-icon.svg?lh4izv#lol-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lol-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Globe:before {
+  content: "\e90b";
+}
+.icon-home:before {
+  content: "\e90d";
+}
+.icon-shell:before {
+  content: "\e912";
+}
+.icon-rp:before {
+  content: "\e911";
+}
+.icon-live:before {
+  content: "\e90f";
+}
+.icon-link:before {
+  content: "\e90e";
+}
+.icon-ticket:before {
+  content: "\e925";
+}
+.icon-star:before {
+  content: "\e913";
+}
+.icon-hot:before {
+  content: "\e9aa";
+}
+.icon-fight:before {
+  content: "\e90c";
+}
+.icon-Offense:before {
+  content: "\e92c";
+}
+.icon-mission:before {
+  content: "\e935";
+}
+.icon-Trophy:before {
+  content: "\e94d";
+}
+.icon-Gold:before {
+  content: "\e937";
+}
+.icon-IP:before {
+  content: "\e977";
+}
+.icon-Key:before {
+  content: "\e94c";
+}
+.icon-Chest:before {
+  content: "\e978";
+}
+.icon-Present:before {
+  content: "\e94e";
+}
+.icon-Notification:before {
+  content: "\e979";
+}
+.icon-Lock:before {
+  content: "\e94f";
+}
+.icon-Unlock:before {
+  content: "\e950";
+}
+.icon-All:before {
+  content: "\e97a";
+}
+.icon-helmet:before {
+  content: "\e930";
+}
+.icon-skins:before {
+  content: "\e932";
+}
+.icon-emote:before {
+  content: "\e934";
+}
+.icon-ward:before {
+  content: "\e933";
+}
+.icon-summoner:before {
+  content: "\e936";
+}
+.icon-CS:before {
+  content: "\e951";
+}
+.icon-Rank-Veteran:before {
+  content: "\e97b";
+}
+.icon-Dice:before {
+  content: "\e97c";
+}
+.icon-Rental:before {
+  content: "\e97d";
+}
+.icon-QuickCast:before {
+  content: "\e993";
+}
+.icon-IP-Boost:before {
+  content: "\e952";
+}
+.icon-Blue-Essence:before {
+  content: "\e97e";
+}
+.icon-Orange-Essence:before {
+  content: "\e97f";
+}
+.icon-Mastery:before {
+  content: "\e953";
+}
+.icon-Captain:before {
+  content: "\e980";
+}
+.icon-Officer:before {
+  content: "\e981";
+}
+.icon-gameMode:before {
+  content: "\e938";
+}
+.icon-TFT-logo:before {
+  content: "\e9a9";
+}
+.icon-TFT-icon:before {
+  content: "\e9b1";
+}
+.icon-TFT-icon-stroke:before {
+  content: "\e9ab";
+}
+.icon-yourShop:before {
+  content: "\e939";
+}
+.icon-Worlds:before {
+  content: "\e91c";
+}
+.icon-msi-icon2:before {
+  content: "\e916";
+}
+.icon-allstar:before {
+  content: "\e918";
+}
+.icon-thvs-icon:before {
+  content: "\e904";
+}
+.icon-sunlight:before {
+  content: "\e914";
+}
+.icon-arcade:before {
+  content: "\e9ac";
+}
+.icon-Runes:before {
+  content: "\e954";
+}
+.icon-Triforce:before {
+  content: "\e955";
+}
+.icon-Arrow:before {
+  content: "\e994";
+}
+.icon-AbilityPower:before {
+  content: "\e995";
+}
+.icon-Mobility:before {
+  content: "\e996";
+}
+.icon-Spectate:before {
+  content: "\e997";
+}
+.icon-Mid:before {
+  content: "\e982";
+}
+.icon-Fill:before {
+  content: "\e983";
+}
+.icon-Jungle:before {
+  content: "\e984";
+}
+.icon-Sup:before {
+  content: "\e985";
+}
+.icon-Assassin:before {
+  content: "\e986";
+}
+.icon-Fighter:before {
+  content: "\e987";
+}
+.icon-Mage:before {
+  content: "\e988";
+}
+.icon-Support:before {
+  content: "\e989";
+}
+.icon-Marksmen:before {
+  content: "\e98a";
+}
+.icon-Tank:before {
+  content: "\e98b";
+}
+.icon-Inhib:before {
+  content: "\e998";
+}
+.icon-Nexus:before {
+  content: "\e999";
+}
+.icon-Tower:before {
+  content: "\e99a";
+}
+.icon-Fire:before {
+  content: "\e99b";
+}
+.icon-Water:before {
+  content: "\e99c";
+}
+.icon-Wind:before {
+  content: "\e99d";
+}
+.icon-Mountain:before {
+  content: "\e99e";
+}
+.icon-SmallDragon:before {
+  content: "\e9a1";
+}
+.icon-ElderDragon:before {
+  content: "\e9a2";
+}
+.icon-Baron:before {
+  content: "\e9a3";
+}
+.icon-Rift-Herald:before {
+  content: "\e9a4";
+}
+.icon-Vilemaw:before {
+  content: "\e9a5";
+}
+.icon-Ascension:before {
+  content: "\e9a6";
+}
+.icon-KingPoro:before {
+  content: "\e9a7";
+}
+.icon-poro:before {
+  content: "\e917";
+}
+.icon-TFT-DEMON:before {
+  content: "\e957";
+}
+.icon-TFT-DRAGON:before {
+  content: "\e958";
+}
+.icon-TFT-EXILE:before {
+  content: "\e959";
+}
+.icon-TFT-GLACIAL:before {
+  content: "\e95a";
+}
+.icon-TFT-ROBOT:before {
+  content: "\e95b";
+}
+.icon-TFT-IMPERIAL:before {
+  content: "\e95c";
+}
+.icon-TFT-NOBLE:before {
+  content: "\e95d";
+}
+.icon-TFT-NINJA:before {
+  content: "\e95e";
+}
+.icon-TFT-PIRATE:before {
+  content: "\e95f";
+}
+.icon-TFT-PHANTOM:before {
+  content: "\e960";
+}
+.icon-TFT-WILD:before {
+  content: "\e961";
+}
+.icon-TFT-VOID:before {
+  content: "\e962";
+}
+.icon-TFT-YORDLE:before {
+  content: "\e963";
+}
+.icon-TFT-ASSASSIN:before {
+  content: "\e964";
+}
+.icon-TFT-BLADEMASTER:before {
+  content: "\e965";
+}
+.icon-TFT-BRAWLER:before {
+  content: "\e966";
+}
+.icon-TFT-ELEMENTALIST:before {
+  content: "\e967";
+}
+.icon-TFT-GUARDIAN:before {
+  content: "\e968";
+}
+.icon-TFT-GUNSLINGER:before {
+  content: "\e969";
+}
+.icon-TFT-KNIGHT:before {
+  content: "\e96a";
+}
+.icon-TFT-RANGER:before {
+  content: "\e96b";
+}
+.icon-TFT-SHAPESHIFTER:before {
+  content: "\e96c";
+}
+.icon-TFT-SORCERER:before {
+  content: "\e96d";
+}
+.icon-Settings:before {
+  content: "\e96e";
+}
+.icon-Ban:before {
+  content: "\e96f";
+}
+.icon-Plus:before {
+  content: "\e98c";
+}
+.icon-Minimize:before {
+  content: "\e98d";
+}
+.icon-X:before {
+  content: "\e970";
+}
+.icon-Check:before {
+  content: "\e971";
+}
+.icon-Chat:before {
+  content: "\e973";
+}
+.icon-Popout:before {
+  content: "\e972";
+}
+.icon-Replay:before {
+  content: "\e9a8";
+}
+.icon-Beacon:before {
+  content: "\e956";
+}
+.icon-Warning:before {
+  content: "\e98e";
+}
+.icon-Exclamation:before {
+  content: "\e98f";
+}
+.icon-Help:before {
+  content: "\e990";
+}
+.icon-Search:before {
+  content: "\e974";
+}
+.icon-Helpful:before {
+  content: "\e991";
+}
+.icon-Envelope:before {
+  content: "\e975";
+}
+.icon-Locked:before {
+  content: "\e976";
+}
+.icon-Delete:before {
+  content: "\e992";
+}
+.icon-qa:before {
+  content: "\e910";
+}
+.icon-bingo:before {
+  content: "\e903";
+}
+.icon-deck:before {
+  content: "\e924";
+}
+.icon-meteor:before {
+  content: "\e915";
+}
+.icon-campus:before {
+  content: "\e908";
+}
+.icon-treasure:before {
+  content: "\e93b";
+}
+.icon-gift:before {
+  content: "\e9a0";
+}
+.icon-gift-stroke:before {
+  content: "\e99f";
+}
+.icon-lunar:before {
+  content: "\e909";
+}
+.icon-victorious:before {
+  content: "\e90a";
+}
+.icon-lunar-envelope:before {
+  content: "\e93e";
+}
+.icon-chinese-new-year:before {
+  content: "\e940";
+}
+.icon-fireworks01:before {
+  content: "\e93f";
+}
+.icon-lunar-fan:before {
+  content: "\e942";
+}
+.icon-lunar-dragon:before {
+  content: "\e943";
+}
+.icon-Turntable:before {
+  content: "\e94a";
+}
+.icon-Ninja:before {
+  content: "\e93d";
+}
+.icon--11:before {
+  content: "\e100";
+}
+.icon-car:before {
+  content: "\e902";
+}
+.icon-soccer:before {
+  content: "\e905";
+}
+.icon-basketball:before {
+  content: "\e94b";
+}
+.icon-volleyball:before {
+  content: "\e9b2";
+}
+.icon-beach-ball:before {
+  content: "\e9b3";
+}
+.icon-christmas-day:before {
+  content: "\e92d";
+}
+.icon-xmasTree:before {
+  content: "\e93a";
+}
+.icon-snowman:before {
+  content: "\e919";
+}
+.icon-santa:before {
+  content: "\e931";
+}
+.icon-snowflake-stroke:before {
+  content: "\e91a";
+}
+.icon-snowflake:before {
+  content: "\e91b";
+}
+.icon-maya:before {
+  content: "\e92f";
+}
+.icon-triangular:before {
+  content: "\e906";
+}
+.icon-road:before {
+  content: "\e91d";
+}
+.icon-folders:before {
+  content: "\e91e";
+}
+.icon-labo:before {
+  content: "\e944";
+}
+.icon-section:before {
+  content: "\ea76";
+}
+.icon-startup:before {
+  content: "\e941";
+}
+.icon-pumpkin:before {
+  content: "\e929";
+}
+.icon-cat:before {
+  content: "\e91f";
+}
+.icon-accesories:before {
+  content: "\e920";
+}
+.icon-confetti:before {
+  content: "\e921";
+}
+.icon-hat:before {
+  content: "\e927";
+}
+.icon-fireworks:before {
+  content: "\e922";
+}
+.icon-garland:before {
+  content: "\e923";
+}
+.icon-diamond:before {
+  content: "\e926";
+}
+.icon-cupid:before {
+  content: "\e92e";
+}
+.icon-heart:before {
+  content: "\e928";
+}
+.icon-Microphone:before {
+  content: "\e93c";
+}
+.icon-easter:before {
+  content: "\e907";
+}
+.icon-egg:before {
+  content: "\e92a";
+}
+.icon-firends:before {
+  content: "\e92b";
+}
+.icon-bee:before {
+  content: "\e945";
+}
+.icon-flower:before {
+  content: "\e946";
+}
+.icon-plant:before {
+  content: "\e947";
+}
+.icon-origami-swan:before {
+  content: "\e949";
+}
+.icon-aprilcat:before {
+  content: "\e948";
+}
+.icon-bamboo:before {
+  content: "\e901";
+}
+.icon-hammer:before {
+  content: "\e900";
+}
+.icon-PacMan:before {
+  content: "\e9ad";
+}
+.icon-Ghost:before {
+  content: "\e9ae";
+}
+.icon-game-console:before {
+  content: "\e9af";
+}
+.icon-gamepad:before {
+  content: "\e9b0";
+}
+.icon-palm:before {
+  content: "\e9b4";
+}
+.icon-beach-hat:before {
+  content: "\e9b5";
+}
+.icon-acer:before {
+  content: "\e9b6";
+}
